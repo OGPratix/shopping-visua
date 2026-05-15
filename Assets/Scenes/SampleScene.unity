@@ -5023,6 +5023,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &394221847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394221843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9334724bf87fd7846bc9f968db0106c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openAngle: 90
+  openSpeed: 2
 --- !u!1 &401125298 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b4a81c6cf8e0cd545b6a9e96b64571db, type: 3}
@@ -6952,6 +6966,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3011709265134920042, guid: aa057ec7c97ff3b41a7abefb6e578da1, type: 3}
+--- !u!114 &751438198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751438190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9334724bf87fd7846bc9f968db0106c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openAngle: 90
+  openSpeed: 2
 --- !u!114 &755432811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7516,6 +7544,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5075917025109945300, guid: d9bf4adcef5f4704e8c4058424cb6dc4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 751438194}
+    - targetCorrespondingSourceObject: {fileID: 5075917025109945300, guid: d9bf4adcef5f4704e8c4058424cb6dc4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 751438198}
   m_SourcePrefab: {fileID: 100100000, guid: d9bf4adcef5f4704e8c4058424cb6dc4, type: 3}
 --- !u!1 &832575517
 GameObject:
@@ -15105,6 +15136,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1519528881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519528877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb37bf9843351ca49a70183b8b1497af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openAngle: 90
+  speed: 2
 --- !u!114 &1525156842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17866,9 +17911,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7077716600512986509, guid: 43c3dbbf2c9241f43940d8b51cae9e9b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 394221845}
+    - targetCorrespondingSourceObject: {fileID: 7077716600512986509, guid: 43c3dbbf2c9241f43940d8b51cae9e9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 394221847}
     - targetCorrespondingSourceObject: {fileID: 2959705547672207579, guid: 43c3dbbf2c9241f43940d8b51cae9e9b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1519528879}
+    - targetCorrespondingSourceObject: {fileID: 2959705547672207579, guid: 43c3dbbf2c9241f43940d8b51cae9e9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1519528881}
   m_SourcePrefab: {fileID: 100100000, guid: 43c3dbbf2c9241f43940d8b51cae9e9b, type: 3}
 --- !u!1 &1958208613 stripped
 GameObject:
@@ -18340,7 +18391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4773094381523350028, guid: 28f3adadfa8e13d41bd2af81c2170f85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.700628
+      value: -7.07
       objectReference: {fileID: 0}
     - target: {fileID: 4773094381523350028, guid: 28f3adadfa8e13d41bd2af81c2170f85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18348,7 +18399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4773094381523350028, guid: 28f3adadfa8e13d41bd2af81c2170f85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -59.196815
+      value: -59.21
       objectReference: {fileID: 0}
     - target: {fileID: 4773094381523350028, guid: 28f3adadfa8e13d41bd2af81c2170f85, type: 3}
       propertyPath: m_LocalRotation.w
